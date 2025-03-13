@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents":{
+    "card-movies":"/components/cardMovies/cardMovies"
+  },
+  "styleIsolation": "apply-shared"
+}

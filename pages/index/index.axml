@@ -1,0 +1,17 @@
+<view class="box">
+  <view class="container">
+    <view class="title">
+      <text>🎦 MoviesApp</text>
+    </view>
+     <!-- Descripción -->
+    <view class="description">
+      <text>Descubre el mundo del cine como nunca antes. Tu cine, tu elección.</text>
+     
+      <view class="img">
+        <image  src="https://i.ibb.co/m5HRgPx6/pelis.jpg" />
+      </view>
+      <button class="boton" type="primary" onTap="goToMovies"> ¡Empieza ya!</button>
+    </view>
+   </view>
+</view>
+

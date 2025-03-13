@@ -1,0 +1,10 @@
+
+  
+    <view class="card" onTap="goToDetails">
+      
+      <image class="poster" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" ></image>
+      <text class="title">{{movie.title}}</text>
+      
+    </view>
+  
+

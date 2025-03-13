@@ -1,0 +1,22 @@
+
+
+.card {
+  width: 48%;
+  background-color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.poster {
+  width: 90%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-size: 17px;
+  color: white;
+  padding: 10px;
+}

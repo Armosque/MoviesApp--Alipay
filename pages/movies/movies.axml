@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="search-container">
+    <search-input searchQuery="{{query}}"
+    onSearchInput="onSearchInput"></search-input>
+   
+    <view class="favoritos" onTap="onVerFavoritos">
+      ❤️
+    </view>
+  </view>
+  <view class="title">
+    <text>Últimos Estrenos</text>
+  </view>
+  <view class="movies">
+    <block  a:for="{{ movies }}" a:key="id">
+      <card-movies movie="{{item}}"></card-movies>
+    </block>
+  </view>
+</view>

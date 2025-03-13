@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/movieDetails/movieDetails",
+    "pages/favoritos/favoritos"
+  ],
+  "window": {
+    "backgroundColor": "#f4f4f4"
+  }
+}

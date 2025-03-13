@@ -1,0 +1,17 @@
+<view class="first-box">
+  <text class="title">{{movie.title}}</text>
+  <view class="favoritos" onTap="toggleFavorito">
+    <text>{{isFavorito ? '❤️' : '🤍'}}</text>
+  </view>
+</view>
+<view class="movie-container">
+  <image class="poster" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" ></image>
+  <text class="description">{{movie.overview}}</text>
+  <text class="rating">Puntaje:⭐ {{movie.vote_average.toFixed(1)}}</text>
+  <text class="genero">Género:
+    <block a:for="{{movie.genres}}" a:key="id">
+      {{item.name}}{{index === movie.genres.length - 1 ? '' : ', '}}
+    </block>
+  </text>
+  
+</view>

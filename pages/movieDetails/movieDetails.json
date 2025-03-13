@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card-details":"/components/cardDetails/cardDetails"
+  },
+  "styleIsolation": "apply-shared"
+}

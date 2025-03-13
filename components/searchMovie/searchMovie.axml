@@ -1,0 +1,7 @@
+<view class=search-container>
+  <input
+placeholder="Ingresar nombre"
+value="{{searchQuery}}"
+onInput="onInput"
+/>
+</view>

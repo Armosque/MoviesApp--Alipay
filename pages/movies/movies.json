@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "card-movies":"/components/cardMovies/cardMovies",
+    "search-input":"/components/searchMovie/searchMovie"
+  },
+  "styleIsolation": "apply-shared"
+}

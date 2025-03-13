@@ -1,0 +1,33 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0  0 20px 20px;
+  gap:10px;
+  padding: 30px;
+
+}
+.first-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:25px;
+  padding: 20px;
+  margin-top: 40px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(120, 205, 241);
+  text-align: center;
+}
+.favoritos {
+  font-size: 24px;
+}
+.description {
+  font-size: 18px;
+  text-align: justify;
+}
+.rating, .genero {
+  font-size: 18px;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "listar-favoritos":"/components/listar-favoritos/listar-favoritos"
+  },
+  "styleIsolation": "apply-shared"
+}

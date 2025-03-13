@@ -1,0 +1,23 @@
+.search-container {
+  padding: 25px;
+  background-color: #2d2727;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  
+}
+input {
+  width: 300px;
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 22px; 
+  background-color: rgb(247, 248, 252);
+  color: black;
+}
+.search-container input {
+  background-color: white; 
+  border-radius: 10px; 
+  padding: 10px; 
+  font-size: 25px;
+  
+}

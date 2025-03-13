@@ -1,0 +1,7 @@
+<view class ="container">
+  <card-details 
+    movie="{{movie}}" 
+    favoritos="{{favoritos}}" 
+    onToggleFavorito="handleToggleFavorito"
+    isFavorito="{{isFavorito}}"></card-details>
+</view>

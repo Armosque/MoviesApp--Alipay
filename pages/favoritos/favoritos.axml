@@ -1,0 +1,11 @@
+<view class="box">
+  <view class="encabezado">
+    <text class="home" onTap="goToHome">🏠</text>
+    <text class="title">Movies Favoritas</text>
+  </view>
+  
+  <view>
+    <listar-favoritos favoritos="{{favoritos}}" ></listar-favoritos>
+  
+  </view>
+</view>
