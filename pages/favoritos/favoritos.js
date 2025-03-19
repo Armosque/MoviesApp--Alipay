@@ -1,3 +1,15 @@
+/**
+ * Página de favoritos donde se gestionan las películas marcadas como favoritas.
+ * 
+ * @page
+ */
+
+  /**
+   * Datos del estado de la página.
+   * @property {Array} favoritos - Lista de películas favoritas almacenadas.
+   * @property {Array} newFavoritos - Nueva lista de películas tras eliminar una.
+   */
+
 Page({
   data: {
     favoritos: [],

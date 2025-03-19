@@ -1,5 +1,11 @@
 import {getMovies} from "../../api/movies"
 
+/**
+ * Página de listado de películas.
+ *
+ * @page
+ */
+
 Page({
   data: {
     movies:[],
@@ -11,6 +17,9 @@ Page({
     this.fetchMovies()
     
   },
+  /**
+   * Obtiene la lista de películas desde la API.
+   */
   async fetchMovies(){
 
     try {
@@ -27,6 +36,12 @@ Page({
       
     }
   },
+  /**
+   * Filtra las películas según la consulta ingresada en el buscador.
+   * 
+   * @param {string} query - Texto ingresado por el usuario.
+   */
+
   onSearchInput(query){
     
     console.log("has ingresado", query)
@@ -53,6 +68,10 @@ Page({
       searchQuery:query})
   
   },
+   /**
+   * Navega a la página de favoritos.
+   */
+  
   onVerFavoritos() {
     // Navegar a la página de favoritos
     my.navigateTo({

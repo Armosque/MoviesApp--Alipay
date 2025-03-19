@@ -32,6 +32,11 @@ Page({
       path: 'pages/index/index',
     };
   },
+
+  /**
+   * Redirige al usuario a la página de películas.
+   */
+  
   goToMovies(){
     my.navigateTo({
       url:"/pages/movies/movies"

@@ -1,3 +1,16 @@
+/**
+ * Componente de detalles de una película.
+ * 
+ * @component
+ */
+
+  /**
+   * Propiedades del componente.
+   * @property {Object} movie - Objeto con la información de la película.
+   * @property {Function} onToggleFavorito - Función para alternar la película en favoritos.
+   * @property {boolean} isFavorito - Indica si la película está en favoritos.
+   */
+
 Component({
   props: { 
     movie: Object,

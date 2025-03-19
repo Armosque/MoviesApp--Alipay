@@ -1,0 +1,10 @@
+{
+  "source": {
+    "include": ["api", "components", "pages"],
+    "includePattern": ".+\\.js$",
+    "excludePattern": "(node_modules|docs|__tests__)"
+  },
+  "opts": {
+    "destination": "docs"
+  }
+}

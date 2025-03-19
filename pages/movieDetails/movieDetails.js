@@ -1,5 +1,11 @@
 import { getMovieDetails } from "../../api/movie_Details";
 
+/**
+ * Página de detalles de la película.
+ * 
+ * @page
+ */
+
 Page({
   data: {
     movie:Object,
@@ -9,6 +15,12 @@ Page({
     isFavorito: false
 
   },
+    /**
+   * Se ejecuta cuando la página se carga.
+   * 
+   * @param {Object} query - Parámetros recibidos en la URL.
+   */
+
   onLoad(query) {
     console.log("Query recibido:", query)
 
@@ -24,6 +36,12 @@ Page({
     }
     
   },
+   /**
+   * Obtiene los detalles de la película desde la API.
+   * 
+   * @param {string} id - ID de la película.
+   */
+
   async fetchMovieDetails(id){
     try {
       const movieDetails = await getMovieDetails(id)
@@ -38,13 +56,22 @@ Page({
     }
     
   },
+  /**
+   * Verifica si la película está en la lista de favoritos y actualiza el estado.
+   * 
+   * @param {Object} movie - Objeto con la información de la película.
+   */
+
   updateFavoritosState(movie) {
     const favoritos = my.getStorageSync({ key: "favoritos" }).data || [];
     const isFavorito = favoritos.some((fav) => fav.id === movie.id);
     this.setData({ isFavorito, favoritos });
   },
-    // Manejar el evento de agregar/quitar favoritos
-
+    
+    /**
+   * Maneja el evento de agregar o quitar una película de la lista de favoritos.
+   */
+  
   handleToggleFavorito() {
       const { movie, favoritos, isFavorito } = this.data;
   
